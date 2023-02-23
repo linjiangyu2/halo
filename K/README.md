@@ -1,8 +1,9 @@
-# ksh 1 2 3(系统优化)
+# ksh 1 2 3(系统优化) 4(初始化)
 /* By K
-  eamil 	linjiangyu0702@qq.com
+  Eamil 	linjiangyu0702@linjiangyu.com
   Blog  	linjiangyu.com
-  description   自用初始化最小化centos7.x OS系统的脚本。
+  Description   自用初始化最小化centos7.x OS系统的脚本。
+  Modify_date	2022-11-08(初始化添加收集系统信息)
 */
 Usage: ./ksh
 # 需要把虚拟机的CD连接上,要不然会出错
@@ -16,7 +17,7 @@ Usage: ./ksh
 6.reboot是否重启(推荐重启，让全部配置生效),yes or no
 # kca
 /* By K
-  eamil 	linjiangyu0702@qq.com
+  eamil 	linjiangyu0702@linjiangyu.com
   Blog  	linjiangyu.com
   description   自签证书生成
 */
@@ -25,7 +26,7 @@ Usage: ./kca
 * 全部必填项，不会填的按default的输入
 # kkca
 /* By K
-  eamil 	linjiangyu0702@qq.com
+  eamil 	linjiangyu0702@linjiangyu.com
   Blog  	linjiangyu.com
   description   CA服务器搭建
 */
@@ -40,4 +41,4 @@ Usage: ./kkca
   K
   Ops
   k.ca.com
-  linjiangyu0702@qq.com
+  linjiangyu0702@linjiangyu.com
