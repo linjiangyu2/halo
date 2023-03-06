@@ -1,0 +1,253 @@
+INFO  Validating config
+INFO  
+  ======================================================================
+                                                                     
+██████  ██    ██ ████████ ████████ ███████ ██████  ███████ ██      ██    ██ 
+██   ██ ██    ██    ██       ██    ██      ██   ██ ██      ██       ██  ██  
+██████  ██    ██    ██       ██    █████   ██████  █████   ██        ████   
+██   ██ ██    ██    ██       ██    ██      ██   ██ ██      ██         ██    
+██████   ██████     ██       ██    ███████ ██   ██ ██      ███████    ██    
+
+                            主题版本：4.3.1
+  ======================================================================
+INFO  Deleted database.
+INFO  Deleted public folder.
+INFO  Validating config
+INFO  
+  ======================================================================
+                                                                     
+██████  ██    ██ ████████ ████████ ███████ ██████  ███████ ██      ██    ██ 
+██   ██ ██    ██    ██       ██    ██      ██   ██ ██      ██       ██  ██  
+██████  ██    ██    ██       ██    █████   ██████  █████   ██        ████   
+██   ██ ██    ██    ██       ██    ██      ██   ██ ██      ██         ██    
+██████   ██████     ██       ██    ███████ ██   ██ ██      ███████    ██    
+
+                            主题版本：4.3.1
+  ======================================================================
+INFO  Start processing
+INFO  hexo-blog-encrypt: encrypting "我的宝藏" based on the password configured in Front-matter with theme: xray.
+INFO  Generating Baidu urls for last 10 posts
+INFO  Posts urls generated in null
+https://www.linjiangyu.com/posts/3b54fb61.html
+https://www.linjiangyu.com/posts/e5482ed2.html
+https://www.linjiangyu.com/posts/2388a20a.html
+https://www.linjiangyu.com/posts/e56cd95.html
+https://www.linjiangyu.com/posts/d932a11.html
+https://www.linjiangyu.com/posts/6f3762be.html
+https://www.linjiangyu.com/posts/35144386.html
+https://www.linjiangyu.com/posts/a97191d.html
+https://www.linjiangyu.com/posts/e7cd4481.html
+https://www.linjiangyu.com/posts/87519fc9.html
+INFO  131 bangumis have been loaded
+INFO  Files loaded in 14 s
+INFO  Generated: css/coin.css
+INFO  Generated: js/bibi.js
+INFO  Generated: json/owo.json
+INFO  Generated: manifest.json
+INFO  Generated: css/kslink.css
+INFO  Generated: js/census.js
+INFO  Generated: js/coin.js
+INFO  Generated: js/fomal.js
+INFO  Generated: js/kslink.js
+INFO  Generated: baidusitemap.xml
+INFO  Generated: atom.xml
+INFO  Generated: sitemap.xml
+INFO  Generated: apache/index.html
+INFO  Generated: bangumis/index.html
+INFO  Generated: categories/index.html
+INFO  Generated: charts/index.html
+INFO  Generated: collect/index.html
+INFO  Generated: mysql/index.html
+INFO  Generated: nginx/index.html
+INFO  Generated: php-fpm/index.html
+INFO  Generated: prometheus/index.html
+INFO  Generated: redis/index.html
+INFO  Generated: sersync2/index.html
+INFO  Generated: tags/index.html
+INFO  Generated: tomcat/index.html
+INFO  Generated: posts/3b54fb61.html
+INFO  Generated: comments/index.html
+INFO  Generated: archives/index.html
+INFO  Generated: archives/2022/index.html
+INFO  Generated: archives/2022/07/index.html
+INFO  Generated: archives/2022/08/index.html
+INFO  Generated: archives/2022/09/index.html
+INFO  Generated: search.xml
+INFO  Generated: 404.html
+INFO  Generated: posts/e5482ed2.html
+INFO  Generated: posts/2388a20a.html
+INFO  Generated: posts/e56cd95.html
+INFO  Generated: posts/d932a11.html
+INFO  Generated: posts/6f3762be.html
+INFO  Generated: posts/35144386.html
+INFO  Generated: posts/a97191d.html
+INFO  Generated: posts/e7cd4481.html
+INFO  Generated: posts/87519fc9.html
+INFO  Generated: posts/b10cf3a3.html
+INFO  Generated: posts/d6542125.html
+INFO  Generated: posts/f2af38d6.html
+INFO  Generated: posts/371a3fb1.html
+INFO  Generated: posts/78ceeb56.html
+INFO  Generated: posts/d5d9f79c.html
+INFO  Generated: posts/86ed3030.html
+INFO  Generated: posts/3df4b4e4.html
+INFO  Generated: posts/b409e427.html
+INFO  Generated: posts/ad929b66.html
+INFO  Generated: posts/d2d1d8fb.html
+INFO  Generated: posts/1309af80.html
+INFO  Generated: posts/d38cd35f.html
+INFO  Generated: posts/37824039.html
+INFO  Generated: posts/e58e69dc.html
+INFO  Generated: posts/6373edb1.html
+INFO  Generated: posts/115d8f31.html
+INFO  Generated: posts/24c5d7d3.html
+INFO  Generated: posts/bfb4802e.html
+INFO  Generated: posts/265f6511.html
+INFO  Generated: posts/2013454d.html
+INFO  Generated: posts/829779e4.html
+INFO  Generated: posts/bd934ac8.html
+INFO  Generated: posts/adf659df.html
+INFO  Generated: posts/1b152b3a.html
+INFO  Generated: posts/45b04385.html
+INFO  Generated: archives/2022/10/index.html
+INFO  Generated: archives/2022/11/index.html
+INFO  Generated: archives/2022/12/index.html
+INFO  Generated: archives/2023/index.html
+INFO  Generated: archives/2023/02/index.html
+INFO  Generated: archives/2023/03/index.html
+INFO  Generated: categories/演示/index.html
+INFO  Generated: categories/运维/index.html
+INFO  Generated: categories/服务集群/index.html
+INFO  Generated: categories/Linux基础/index.html
+INFO  Generated: categories/运维/服务集群/index.html
+INFO  Generated: categories/演示/数据库/index.html
+INFO  Generated: categories/服务集群/演示/index.html
+INFO  Generated: categories/魔改教程/index.html
+INFO  Generated: tags/Markdown/index.html
+INFO  Generated: tags/外挂标签/index.html
+INFO  Generated: tags/Linux/index.html
+INFO  Generated: tags/redis/index.html
+INFO  Generated: tags/storage/index.html
+INFO  Generated: tags/butterfly/index.html
+INFO  Generated: img/404.jpg
+INFO  Generated: assets/avatar.webp
+INFO  Generated: upload/favicon.jpg
+INFO  Generated: assets/gulp/comment_bg.png
+INFO  Generated: assets/gulp/siteicon/128.png
+INFO  Generated: lib/hbe.js
+INFO  Generated: box/animation/index.html
+INFO  Generated: life/games/index.html
+INFO  Generated: personal/about/index.html
+INFO  Generated: site/census/index.html
+INFO  Generated: social/fcircle/index.html
+INFO  Generated: archives/page/2/index.html
+INFO  Generated: archives/2022/page/2/index.html
+INFO  Generated: index.html
+INFO  Generated: img/favicon.png
+INFO  Generated: img/friend_404.gif
+INFO  Generated: img/loading.svg
+INFO  Generated: assets/c10.cur
+INFO  Generated: assets/c11.cur
+INFO  Generated: assets/c3.cur
+INFO  Generated: assets/c4.cur
+INFO  Generated: assets/c7.cur
+INFO  Generated: assets/c8.cur
+INFO  Generated: assets/c9.cur
+INFO  Generated: assets/close.webp
+INFO  Generated: assets/coffee.png
+INFO  Generated: assets/open.webp
+INFO  Generated: assets/pusheencode.webp
+INFO  Generated: assets/r1.jpg
+INFO  Generated: assets/gulp/siteicon/144.png
+INFO  Generated: assets/gulp/siteicon/16.png
+INFO  Generated: assets/gulp/siteicon/192.png
+INFO  Generated: assets/gulp/siteicon/32.png
+INFO  Generated: assets/gulp/siteicon/512.png
+INFO  Generated: assets/gulp/siteicon/64.png
+INFO  Generated: css/hbe.style.css
+INFO  Generated: assets/gulp/siteicon/48.png
+INFO  Generated: favicon.ico
+INFO  Generated: robots.txt
+INFO  Generated: box/gallery/index.html
+INFO  Generated: box/nav/index.html
+INFO  Generated: life/movies/index.html
+INFO  Generated: life/music/index.html
+INFO  Generated: personal/bb/index.html
+INFO  Generated: personal/love/index.html
+INFO  Generated: site/time/index.html
+INFO  Generated: social/link/index.html
+INFO  Generated: archives/page/4/index.html
+INFO  Generated: archives/2022/page/3/index.html
+INFO  Generated: archives/2022/page/4/index.html
+INFO  Generated: categories/服务集群/page/2/index.html
+INFO  Generated: page/2/index.html
+INFO  Generated: upload/2022/07/0b3397b2275950862f89b57b46f1fef-55356d72c9fa43d49cf5e168f990e7fa.jpg
+INFO  Generated: tags/Linux/page/2/index.html
+INFO  Generated: assets/head.jpg
+INFO  Generated: js/search/algolia.js
+INFO  Generated: assets/404_1.jpg
+INFO  Generated: css/var.css
+INFO  Generated: archives/page/3/index.html
+INFO  Generated: page/3/index.html
+INFO  Generated: js/search/local-search.js
+INFO  Generated: css/index.css
+INFO  Generated: js/main.js
+INFO  Generated: js/tw_cn.js
+INFO  Generated: assets/QRCode.jpg
+INFO  Generated: assets/r2.jpg
+INFO  Generated: js/utils.js
+INFO  Generated: assets/gulp/404.jpg
+INFO  Generated: assets/loading2.gif
+INFO  Generated: assets/loading3.gif
+INFO  Generated: assets/gulp/friend_404.gif
+INFO  Generated: assets/gulp/loading.gif
+INFO  161 files generated in 4.41 s
+[14:54:29] Using gulpfile ~/hexo/gulpfile.js
+[14:54:29] Starting 'default'...
+[14:54:29] Starting 'compress'...
+[14:54:29] Starting 'minify-css'...
+[14:54:29] Starting 'minify-html'...
+[14:54:29] Finished 'compress' after 24 ms
+[14:54:36] Finished 'minify-css' after 6.67 s
+[14:54:59] Finished 'minify-html' after 30 s
+[14:54:59] Finished 'default' after 30 s
+INFO  Validating config
+INFO  
+  ======================================================================
+                                                                     
+██████  ██    ██ ████████ ████████ ███████ ██████  ███████ ██      ██    ██ 
+██   ██ ██    ██    ██       ██    ██      ██   ██ ██      ██       ██  ██  
+██████  ██    ██    ██       ██    █████   ██████  █████   ██        ████   
+██   ██ ██    ██    ██       ██    ██      ██   ██ ██      ██         ██    
+██████   ██████     ██       ██    ███████ ██   ██ ██      ███████    ██    
+
+                            主题版本：4.3.1
+  ======================================================================
+INFO  Start processing
+INFO  Generating Baidu urls for last 10 posts
+INFO  Posts urls generated in null
+https://www.linjiangyu.com/posts/3b54fb61.html
+https://www.linjiangyu.com/posts/e5482ed2.html
+https://www.linjiangyu.com/posts/2388a20a.html
+https://www.linjiangyu.com/posts/e56cd95.html
+https://www.linjiangyu.com/posts/d932a11.html
+https://www.linjiangyu.com/posts/6f3762be.html
+https://www.linjiangyu.com/posts/35144386.html
+https://www.linjiangyu.com/posts/a97191d.html
+https://www.linjiangyu.com/posts/e7cd4481.html
+https://www.linjiangyu.com/posts/87519fc9.html
+INFO  131 bangumis have been loaded
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
+INFO  Generating Baidu urls for last 10 posts
+INFO  Posts urls generated in null
+https://www.linjiangyu.com/posts/3b54fb61.html
+https://www.linjiangyu.com/posts/e5482ed2.html
+https://www.linjiangyu.com/posts/2388a20a.html
+https://www.linjiangyu.com/posts/e56cd95.html
+https://www.linjiangyu.com/posts/d932a11.html
+https://www.linjiangyu.com/posts/6f3762be.html
+https://www.linjiangyu.com/posts/35144386.html
+https://www.linjiangyu.com/posts/a97191d.html
+https://www.linjiangyu.com/posts/e7cd4481.html
+https://www.linjiangyu.com/posts/87519fc9.html
+INFO  131 bangumis have been loaded
