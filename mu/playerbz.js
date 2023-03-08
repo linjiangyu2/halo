@@ -30,9 +30,9 @@ class Musics {
             },
             {
                 id: 2,
-                title: '晚风',
+                title: '亚托莉',
                 singer: '7copy,BT07',
-                songUrl: 'https://halo.linjiangyu.com/songs/byh/wf.mp3',
+                songUrl: 'https://gitee.com/linjiangyu2/po/raw/master/img/atri.mp3',
                 imageUrl: 'https://halo.linjiangyu.com/img/fak.jpg'
             },
             {
