@@ -300,7 +300,8 @@
 /* 公众号 Start */
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
-    background: #000000 !important;
+    /*background: #000000 !important;*/
+    background: #99ffff !important;
 }
 
 #aside-content .card-widget#card-wechat {
