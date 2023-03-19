@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | 你会发光叭")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Tianlin_Zz")[0];
 }
 
 function scrollToTop() {
@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(23.738372, 113.088411, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(113.088411, 23.738372, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到你会发光叭の小家!`,
+    `欢迎来到Tianlin_Zzの小家!`,
     `一旦你成为自己的太阳 便无须再凭借谁的光`,
     `.__  .__            __.__                                   
 |  | |__| ____     |__|__|____    ____    ____ ___.__.__ __ 
@@ -1131,7 +1131,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By 你会发光叭",
+    "©2022 By Tianlin_Zz",
   ];
 
   setTimeout(
@@ -1170,7 +1170,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Ppowered by 你会发光叭 %c 你正在访问你会发光叭の小家",
+      "%c ⚡ Ppowered by Tianlin_Zz %c 你正在访问Tianlin_Zzの小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1280,8 +1280,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| 你会发光叭") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('你会发光叭\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| Tianlin_Zz") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Tianlin_Zz\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2818,8 +2818,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://cdn.staticaly.com/gh/linjiangyu2/halo@master/img/linjiangyusb.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://cdn.staticaly.com/gh/linjiangyu2/halo@master/img/linjiangyuxb.svg' title='休息的时间就应该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      ? `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/linjiangyusb.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+      : `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/linjiangyuxb.svg' title='休息的时间就应该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
