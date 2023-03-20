@@ -1,0 +1,21 @@
+[Ceph]
+name=Ceph $basearch
+baseurl=https://mirrors.aliyun.com/ceph/rpm-nautilus/el7/$basearch
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.aliyun.com/ceph/keys/release.gpg
+
+[Ceph-noarch]
+name=Ceph noarch
+baseurl=https://mirrors.aliyun.com/ceph/rpm-nautilus/el7/noarch
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.aliyun.com/ceph/keys/release.gpg
+
+[Ceph-source]
+name=Ceph SRPMS
+baseurl=https://mirrors.aliyun.com/ceph/rpm-nautilus/el7/SRPMS
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.aliyun.com/ceph/keys/release.gpg
+

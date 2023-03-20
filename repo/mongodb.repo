@@ -1,0 +1,5 @@
+[MongoDB]
+name=MongoDB
+baseurl=https://repo.mongodb.org/yum/redhat/7/mongodb-org/6.0/$basearch
+enabled=1
+gpgcheck=0

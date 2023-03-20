@@ -1,0 +1,5 @@
+[seadrive]
+name=seadrive
+baseurl=https://linux-clients.seafile.com/seadrive-rpm/centos7
+gpgcheck=0
+enabled=1

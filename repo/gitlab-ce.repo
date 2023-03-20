@@ -1,0 +1,5 @@
+[gitlab-ce]
+name=Gitlab CE Repository
+baseurl=https://mirrors.cloud.tencent.com/gitlab-ce/yum/el$releasever/
+gpgcheck=0
+enabled=1
