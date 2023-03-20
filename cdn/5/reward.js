@@ -1,6 +1,6 @@
 function reward(){
   Swal.fire({
-    title: '<strong>您正在为 <u>你会发光叭</u> 充电</strong>',
+    title: '<strong>您正在为 <u>Tianlin</u> 充电</strong>',
     html: '<b>请选择您的付款方式</b>',
     icon: 'info',
     showCancelButton: true,
@@ -15,7 +15,7 @@ function reward(){
       Swal.fire({
         title: '感谢您',
         html: '请打开支付宝 <b>[扫一扫]</b> 以充电',
-        imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zfbzf.jpg',
+        imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zfbzf2.jpg',
         imageWidth: 175,
         imageHeight: 175,
         imageAlt: 'Custom image'
