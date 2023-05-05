@@ -674,8 +674,8 @@ if (document.body.clientWidth > 992) {
         zoom: 0.9,
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
-        nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-        hoverMsg: "喵喵喵?",
+        nekoImg: "https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/snow-ls.png",
+        hoverMsg: "嘻嘻~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
@@ -2818,8 +2818,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/linjiangyusb.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/linjiangyuxb.svg' title='休息的时间就应该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      ? `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/Tianlin-my.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+      : `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/Tianlin-xb.svg' title='休息的时间就应该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
@@ -3188,8 +3188,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zz.jpg);
-    --darkmode-bg:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zz.jpg);
+    --default-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zhenzhou111.webp);
+    --darkmode-bg:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/chiyin.webp);
     --mobileday-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/snow.webp);
     --mobilenight-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mb8.webp);
   }`;
