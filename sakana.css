@@ -1,0 +1,42 @@
+html .sakana-box {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform-origin: 100% 100%; /* 从右下开始变换 */
+}
+.sakana-box {
+    width: 500px;
+    height: 80px;
+    position: relative;
+    pointer-events: none;
+    z-index: 100;
+}
+@media screen and (max-width: 768px){
+  .sakana-box {
+  width: 500px;
+  height: 80px;
+  position: relative;
+  pointer-events: none;
+}
+}
+@media screen and (max-width: 768px){
+  html .sakana-box {
+    position: inherit;
+    right: 0;
+    bottom: 0;
+    transform-origin: 36% 160%;
+}
+}
+[data-theme="light"] .layout > div:first-child:not(.recent-posts) {
+    background: rgba(255, 255, 255, .8);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none!important;
+}
+[data-theme="dark"] .layout > div:first-child:not(.recent-posts) {
+    background: rgba(15, 15, 15, .75);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none!important;
+}
+html.hide-aside .layout > div:first-child {
+    width: 90%;
+}
