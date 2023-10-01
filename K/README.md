@@ -1,6 +1,6 @@
 <h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
 
-## Hi there <img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/wave.gif" width="30px">
+## Hi there <img src="https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/wave.gif" width="30px">
 嗨，我是 [Tianlin](https://www.linjiangyu.com/personal/about/)，是一名学生、博主、运维工程师😄
 
 💖喜欢开源工作和看动漫漫画、轻小说👀
@@ -18,7 +18,7 @@ Hi, I'm [Tianlin](https://www.linjiangyu.com/personal/about/), a student, blogge
 
 ⚡ Always driven by curiosity to learn some cool techniques 😎
 
-![Anurag's GitHub stats](https://readme.linjiangyu.com/api?username=linjiangyu2&show_icons=true&theme=radical)<img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/code.gif" width="280px" height='200px'></img>
+![Anurag's GitHub stats](https://readme.linjiangyu.com/api?username=linjiangyu2&show_icons=true&theme=radical)<img src="https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/code.gif" width="280px" height='200px'></img>
 [![Top Langs](https://readme.linjiangyu.com/api/top-langs/?username=linjiangyu2&layout=compact)](https://www.linjiangyu.com/)
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img src="https://readme.linjiangyu.com/api/pin/?username=linjiangyu2&repo=K" width=auto />
@@ -49,7 +49,7 @@ Hi, I'm [Tianlin](https://www.linjiangyu.com/personal/about/), a student, blogge
 ![](https://img.shields.io/badge/Storage-Ceph-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ffcc80)
 ![](https://img.shields.io/badge/Grid-Consul-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ff80df)
 # tsh 1 2 3(系统优化) 4(初始化)
-/* By Tianlin_Zz
+/* By Tianlin
   Eamil 	linjiangyu0702@linjiangyu.com
   Blog  	linjiangyu.com
   Description   自用初始化最小化centos7.x OS系统的脚本。
@@ -66,16 +66,16 @@ Usage: ./tsh
 5.是否使用k.dns.com的内网域名(默认为no),yes or no
 6.reboot是否重启(推荐重启，让全部配置生效),yes or no
 # tmysql
-/* By Tianlin_Zz
+/* By Tianlin
   Eamil         linjiangyu0702@linjiangyu.com
   Blog          linjiangyu.com
   Description   源码编译的mysql-8.0.31-boost
   Modify_date   2023-03-25(初始化)
 */
-![](https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1679744589613.jpg)
+![](https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/1679744589613.jpg)
 #
 # tnginx
-/* By Tianlin_Zz
+/* By Tianlin
   Eamil         linjiangyu0702@linjiangyu.com
   Blog          linjiangyu.com
   Description   源码编译的nginx-1.22.0

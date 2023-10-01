@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Tianlin_Zz")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Tianlin")[0];
 }
 
 function scrollToTop() {
@@ -674,7 +674,7 @@ if (document.body.clientWidth > 992) {
         zoom: 0.9,
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
-        nekoImg: "https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/snow-ls.png",
+        nekoImg: "https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/snow-ls.png",
         hoverMsg: "嘻嘻~",
         color: "var(--theme-color)",
         during: 500,
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Tianlin_Zzの小家!`,
+    `欢迎来到Tianlinの小家!`,
     `一旦你成为自己的太阳 便无须再凭借谁的光`,
     `.__  .__            __.__                                   
 |  | |__| ____     |__|__|____    ____    ____ ___.__.__ __ 
@@ -1131,7 +1131,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Tianlin_Zz",
+    "©2022 By Tianlin",
   ];
 
   setTimeout(
@@ -1170,7 +1170,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Ppowered by Tianlin_Zz %c 你正在访问Tianlin_Zzの小家",
+      "%c ⚡ Ppowered by Tianlin %c 你正在访问Tianlinの小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1280,8 +1280,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Tianlin_Zz") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Tianlin_Zz\n标题：' + subTitle + '\n链接：' + url + '\n欢迎访问Tianlin的小站');
+    var subTitle = title.endsWith("| Tianlin") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Tianlin\n标题：' + subTitle + '\n链接：' + url + '\n欢迎访问Tianlin的小站');
     new Vue({
       data: function () {
         this.$notify({
@@ -2818,8 +2818,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/Tianlin-my.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/Tianlin-xb.svg' title='休息的时间就应该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      ? `<img class='boardsign' src='https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/svg/Tianlin-my.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+      : `<img class='boardsign' src='https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/svg/Tianlin-xb.svg' title='休息的时间就应该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
@@ -3188,10 +3188,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zz.jpg);
-    --darkmode-bg:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/chiyin.webp);
-    --mobileday-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/snow.webp);
-    --mobilenight-bg: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mb8.webp);
+    --default-bg: url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/zz.jpg);
+    --darkmode-bg:url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/chiyin.webp);
+    --mobileday-bg: url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/snow.webp);
+    --mobilenight-bg: url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/mb8.webp);
   }`;
 }
 // 切换背景主函数
@@ -3421,7 +3421,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/home_bg.webp)')"></a></div>
               </div>
             </details>
 
@@ -3430,7 +3430,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fj1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3438,7 +3438,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mc1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/mc1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3462,7 +3462,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/mb4.webp)')"></a></div>
               </div>
             </details>
 
@@ -3478,7 +3478,7 @@ function createWinbox() {
 <h3>8. 自定义背景</h3>
 <details class="folding-tag" cyan><summary> 设置自定义背景 </summary>
               <div class='content'>
-              <p><center><input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/home_bg.webp"></center></p><p><center><button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button></center></p>
+              <p><center><input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/home_bg.webp"></center></p><p><center><button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button></center></p>
               </div>
             </details>
 

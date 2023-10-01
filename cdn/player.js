@@ -25,77 +25,77 @@ class Musics {
             id: 1,
                 title: '起风了',
                 singer: '买辣椒也用卷',
-                songUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/songs/byh/qfl.mp3',
-                imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+                songUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/songs/byh/qfl.mp3',
+                imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             },
             {
                 id: 2,
                 title: '晚风',
                 singer: '7copy,BT07',
-                songUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/songs/byh/wf.mp3',
-                imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+                songUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/songs/byh/wf.mp3',
+                imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             },
             {
                 id: 3,
                 title: '房间',
                 singer: '刘瑞琦',
-                songUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/songs/byh/fj.mp3',
-                imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+                songUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/songs/byh/fj.mp3',
+                imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             },
             {
                 id: 4,
                 title: '如果可以',
                 singer: '韦礼安',
-                songUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/songs/byh/rgky.mp3',
-                imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+                songUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/songs/byh/rgky.mp3',
+                imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             },
             {
                 id: 5,
                 title: '不将就',
                 singer: '李荣浩',
-                songUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/songs/byh/bjj.mp3',
-                imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+                songUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/songs/byh/bjj.mp3',
+                imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             },
             //     id: 1,
             //     title: '起风了',
             //     singer: '买辣椒也用卷',
             //     songUrl: 'https://hexo.songs.linjiangyu.com/%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8%20-%20%E8%B5%B7%E9%A3%8E%E4%BA%86%EF%BC%88Cover%20%E9%AB%98%E6%A9%8B%E5%84%AA%EF%BC%89.mp3',
-            //     imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+            //     imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             // },
             // {
             //     id: 2,
             //     title: '晚风',
             //     singer: '7copy,BT07',
             //     songUrl: 'https://hexo.songs.linjiangyu.com/7copy%E3%80%81BT07%20-%20%E6%99%9A%E9%A3%8E.mp3',
-            //     imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+            //     imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             // },
             // {
             //     id: 3,
             //     title: '房间',
             //     singer: '刘瑞琦',
             //     songUrl: 'https://hexo.songs.linjiangyu.com/%E5%88%98%E7%91%9E%E7%90%A6%20-%20%E6%88%BF%E9%97%B4-%E6%96%B0%E7%89%88.mp3',
-            //     imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+            //     imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             // },
             // {
             //     id: 4,
             //     title: '如果可以',
             //     singer: '韦礼安',
             //     songUrl: 'https://hexo.songs.linjiangyu.com/%E9%9F%A6%E7%A4%BC%E5%AE%89%20-%20%E5%A6%82%E6%9E%9C%E5%8F%AF%E4%BB%A5.mp3',
-            //     imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+            //     imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             // },
             // {
             //     id: 5,
             //     title: '不将就',
             //     singer: '李荣浩',
             //     songUrl: 'https://hexo.songs.linjiangyu.com/%E6%9D%8E%E8%8D%A3%E6%B5%A9%20-%20%E4%B8%8D%E5%B0%86%E5%B0%B1.mp3',
-            //     imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+            //     imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             // },
             // {
             //     id: 6,
             //     title: '德吉老爷的一封信',
             //     singer: '神野縭',
             //     songUrl: 'https://hexo.songs.linjiangyu.com/%E7%A5%9E%E9%87%8E%E7%B8%AD%20-%20%E5%BE%B7%E5%90%89%E8%80%81%E7%88%B7%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1%EF%BC%88x0.9%E9%99%8D%E8%B0%83%EF%BC%89.mp3',
-            //     imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fak.jpg'
+            //     imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/fak.jpg'
             // },
         ]
     }

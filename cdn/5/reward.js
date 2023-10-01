@@ -15,7 +15,7 @@ function reward(){
       Swal.fire({
         title: '感谢您',
         html: '请打开支付宝 <b>[扫一扫]</b> 以充电',
-        imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zfbzf2.jpg',
+        imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/zfbzf2.jpg',
         imageWidth: 175,
         imageHeight: 175,
         imageAlt: 'Custom image'
@@ -32,7 +32,7 @@ function reward(){
       Swal.fire({
         title: '感谢您',
         html: '请打开微信 <b>[扫一扫]</b> 以充电',
-        imageUrl: 'https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/wxzf.jpg',
+        imageUrl: 'https://jsd.onmicrosoft.cn/gh/linjiangyu2/halo/img/wxzf.jpg',
         imageWidth: 175,
         imageHeight: 175,
         imageAlt: 'Custom image'
